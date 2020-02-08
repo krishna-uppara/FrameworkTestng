@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testLevelParameter">
+  <parameter name="browser" value="chrome"> </parameter>
+<parameter name="url" value="http://www.google.com"> </parameter>
+<parameter name="timeout" value="20"> </parameter>
+  <test name="Test">
+  <parameter name="browser" value="chrome1"> </parameter>
+<parameter name="url" value="http://www.google.com1"> </parameter>
+<parameter name="timeout" value="25"> </parameter>
+    <classes>
+      <class name="parameters.parameteroverridesuiteleveltotestleve"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

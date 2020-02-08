@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestngTutorials/Excel&apos; to &apos;Excels&apos;" description="Rename resource &apos;Excel&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Excel" name="Excels" stamp="1505046249996" updateReferences="true"/>
+</session>
